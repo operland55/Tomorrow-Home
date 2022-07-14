@@ -1,4 +1,6 @@
-p{  
-  color: blue;
-  background-color: red;
+@import './constants/colors';
+@import '/styles/constants/reset.scss';
+
+body {
+  background-color: $blue-light;
 }
