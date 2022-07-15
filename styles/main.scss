@@ -1,3 +1,5 @@
+@import './base/fonts';
+
 @import './constants/colors';
 @import './constants/typography';
 @import './constants/breackpoint';
@@ -10,5 +12,6 @@
 
 @import './modules/tags';
 @import './modules/avatars';
+@import './modules/star-ratings';
 
 @import './layouts/grid';
