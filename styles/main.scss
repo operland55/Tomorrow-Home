@@ -1,4 +1,12 @@
 @import './constants/colors';
 @import './constants/typography';
+
 @import './constants/reset';
+
 @import './layouts/grid';
+
+@import './mixins/text-style';
+
+p {
+  @include text-style(14, $secondary);
+}
