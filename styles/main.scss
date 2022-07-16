@@ -2,7 +2,7 @@
 
 @import './constants/colors';
 @import './constants/typography';
-@import './constants/breackpoint';
+@import './constants/breakpoint';
 @import './constants/reset';
 
 @import './mixins/text-style';
@@ -13,5 +13,6 @@
 @import './modules/tags';
 @import './modules/avatars';
 @import './modules/star-ratings';
+@import './modules/prices';
 
 @import './layouts/grid';
