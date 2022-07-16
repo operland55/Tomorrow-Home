@@ -1,9 +1,10 @@
-@import './base/fonts';
-
 @import './constants/colors';
 @import './constants/typography';
 @import './constants/breakpoint';
 @import './constants/reset';
+
+@import './base/fonts';
+@import './base/globals';
 
 @import './mixins/text-style';
 @import './mixins/responsive';
@@ -16,5 +17,6 @@
 @import './modules/prices';
 @import './modules/buttons';
 @import './modules/forms';
+@import './modules/pagination';
 
 @import './layouts/grid';
