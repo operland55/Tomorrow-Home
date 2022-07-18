@@ -13,7 +13,7 @@
     }
 
     .gnb-search-button {
-      margin-right: 4px; 
+      margin-right: 4px;
     }
   }
 
@@ -40,6 +40,52 @@
       display: block;
       width: auto; //img height값의맞춰서 width값이된다 알아두자
       height: 20px;
+    }
+  }
+  @include responsive(T) {
+    &-left {
+      @include flexbox(start);
+    }
+
+    &-right {
+      @include flexbox(end);
+
+      .button-group {
+        margin-right: 24px;
+
+        .gnb-icon-button {
+          margin-right: 8px;
+        }
+      }
+    }
+
+    &-wrapper {
+      height: 80px;
+    }
+    .logo {
+      position: static;
+      margin-right: 32px;
+      transform: none;
+      img {
+        height: 24px;
+      }
+    }
+
+    .btn-primary {
+      width: 88px;
+
+      i {
+        margin-left: 4px;
+      }
+    }
+  }
+
+  @include responsive(D) {
+    &-right {
+      .input-group {
+        width: 264px;
+        margin-right: 24px;
+      }
     }
   }
 }
