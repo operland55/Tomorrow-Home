@@ -1,0 +1,45 @@
+.gnb {
+  position: relative;
+  border-bottom: 1px solid $border;
+
+  &-wrapper {
+    @include flexbox(between);
+    height: 50px;
+  }
+
+  &-right {
+    .button-group {
+      @include flexbox(right);
+    }
+
+    .gnb-search-button {
+      margin-right: 4px; 
+    }
+  }
+
+  &-icon-button {
+    @include flexbox;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    color: $secondary;
+  }
+
+  &-menu-button {
+    color: $blue;
+  }
+
+  .logo {
+    @include pos-center;
+
+    a {
+      display: block;
+    }
+
+    img {
+      display: block;
+      width: auto; //img height값의맞춰서 width값이된다 알아두자
+      height: 20px;
+    }
+  }
+}
