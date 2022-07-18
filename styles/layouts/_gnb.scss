@@ -45,15 +45,35 @@
           margin-right: 8px;
         }
       }
+
+      .gnb-auth {
+        margin-right: 8px;
+
+        a {
+          @include text-style(14, $secondary);
+          font-weight: 700;
+
+
+          &:first-child{
+            margin-right: 1;
+          }
+          
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
     }
 
     &-wrapper {
       height: 80px;
     }
+
     .logo {
       position: static;
       margin-right: 32px;
       transform: none;
+
       img {
         height: 24px;
       }
