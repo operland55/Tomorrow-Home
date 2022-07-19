@@ -7,6 +7,10 @@
     width: $button-size;
     height: $button-size;
     overflow: hidden;
+    background-image: url('./assets/img/img-user-default.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
     border: 3px solid $white;
     border-radius: 50%;
     transition: border-color 200ms ease-in-out;
@@ -33,6 +37,7 @@
     &::before,
     &::after {
       @include pos-center-x;
+      @include text-style(16, $primary);
       top: -#{$tooltip-size * 2};
       display: block;
       width: 0;
