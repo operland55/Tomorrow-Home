@@ -1,0 +1,61 @@
+.sidebar {
+  width: 240px;
+  padding: 32px 20px;
+  background-color: $white;
+
+  &-header {
+    padding: 0 12px;
+
+    .logo {
+      @include flexbox(start);
+
+      a {
+        display: block;
+      }
+
+      img {
+        display: block;
+        width: auto; //img height값의맞춰서 width값이된다 알아두자
+        height: 20px;
+      }
+    }
+  }
+
+  &-user,
+  &-auth {
+    @include flexbox(start);
+
+    height: 88px;
+  }
+
+  &-user {
+    a {
+      @include flexbox(start);
+      @include text-style(14, $primary);
+      width: 100%;
+      font-weight: 700;
+    }
+
+    .avatar-24 {
+      flex-grow: 0;
+      flex-shrink: 0; // shrink 다른박스가 크든 작든 절대변하지않게하는설정
+      margin-right: 8px;
+    }
+
+    .username {
+      flex-grow: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      //이렇게 설정한이유는 만약 닉네임이 width값을 초과하면 레이아웃이 망가지기떄문에 overflow를 주었다
+    }
+  }
+
+  &-auth {
+    @include flexbox(between);
+
+    a {
+      width: 84px;
+    }
+  }
+}
