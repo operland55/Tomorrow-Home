@@ -1,5 +1,6 @@
 .gnb-icon-button {
   $badge-size: 16px;
+  
   @include flexbox;
   position: relative;
   width: 32px;

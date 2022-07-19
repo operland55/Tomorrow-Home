@@ -53,11 +53,10 @@
           @include text-style(14, $secondary);
           font-weight: 700;
 
-
-          &:first-child{
+          &:first-child {
             margin-right: 1;
           }
-          
+
           &:hover {
             color: $blue;
           }
