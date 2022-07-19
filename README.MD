@@ -61,7 +61,7 @@
                   <strong class="badge">1</strong>
                 </a>
 
-                <button 
+                <button
                 class="gnb-avatar-button sm-hidden"
                 type="button" aria-label="">
                   <div class="avatar-32">
@@ -69,4 +69,28 @@
                   </div>
                 </button>
 
+```
+
+### 2. sidebar
+
+```html
+-로그인을 하지않는 경우
+<!-- 로그인을 하지 않은경우 -->
+<!-- <div class="sidebar-auth">
+        <a class="btn-outlined btn-40" href="/">로그인</a>
+        <a class="btn-primary btn-40" href="/">회원가입</a>
+      </div> -->
+```
+
+```html
+-로그인을 한경우
+
+<div class="sidebar-user">
+  <a href="/">
+    <div class="avatar-24">
+      <img src="/assets/img/오타니프로필.jpg" alt="오타니" />
+    </div>
+    <strong class="username">오타니</strong>
+  </a>
+</div>
 ```
