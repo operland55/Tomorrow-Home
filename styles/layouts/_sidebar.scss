@@ -1,8 +1,8 @@
 //sidebar css
 
 .sidebar {
+  @include no-scrollbar;
   $sidebar-width: 240px;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -102,9 +102,5 @@
         }
       }
     }
-  }
-
-  &::-webkit-scrollbar {
-    display: none;
   }
 }
