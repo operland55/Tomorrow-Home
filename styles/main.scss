@@ -4,6 +4,7 @@
 @import './constants/reset';
 @import './constants/box-shadows';
 @import './constants/z-indexes';
+@import './constants/dimensions';
 
 @import './base/fonts';
 @import './base/globals';
@@ -27,6 +28,7 @@
 @import './components/gnb-icon-buttons';
 @import './components/my-menu';
 @import './components/search-history';
+@import './components/breadcrumb';
 
 @import './layouts/grid';
 @import './layouts/gnb';
@@ -34,4 +36,5 @@
 @import './layouts/overlay';
 @import './layouts/search-modal';
 @import './layouts/lnb';
+@import './layouts/global-header';
 @import './layouts/global-footer';
