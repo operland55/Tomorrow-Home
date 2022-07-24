@@ -14,4 +14,5 @@ const productCarousel = tns({
 
   // items: 3,
   // slideBy: 'page',
+  // navContainer는 네비게이션이다 즉 이 버튼을누르면 container slider-list로 넘어갈것이다
 });
