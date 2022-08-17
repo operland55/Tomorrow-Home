@@ -60,10 +60,8 @@
     }
 
     .username {
+      @include truncate;
       flex-grow: 1;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
       //이렇게 설정한이유는 만약 닉네임이 width값을 초과하면 레이아웃이 망가지기떄문에 overflow를 주었다
     }
   }
