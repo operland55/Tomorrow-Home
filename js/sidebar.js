@@ -7,7 +7,6 @@ const sidebarOverlay = document.querySelector('.overlay')
 function openSidebar() {
   sidebar.classList.add('is-active')
   sidebarOverlay.classList.add('is-active')
-  console.log('ㅇ')
 }
 
 
