@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="/manifest" href="/site.webmanifest" />
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3da5f5" />
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
@@ -104,7 +104,7 @@
 
 
                 <!-- 로그인을 한경우 -->
-                <div class="button-group">
+                <!-- <div class="button-group">
                   <button class="gnb-icon-button is-search lg-hidden" type="button" aria-label="검색창 열기 버튼">
                     <i class="ic-search"></i>
                   </button>
@@ -137,79 +137,74 @@
                       </ul>
                     </div>
                   </div>
-                </div>
-                <!-- 로그인을 하지않을경우 -->
-                <!-- <div class="button-group">
-                <button class="gnb-icon-button is-search lg-hidden" type="button" aria-label="검색창 열기 버튼">
-                  <i class="ic-search"></i>
-                </button>
-
-
-                <a class="gnb-icon-button" href="/" aria-label="장바구니 페이지로 이동">
-                  <i class="ic-cart"></i>
-                </a>
-
-                <div class="gnb-auth sm-hidden">
-                  <a href="/">로그인</a>
-                  <a href="/">회원가입</a>
                 </div> -->
+                <!-- 로그인을 하지않을경우 -->
+                <div class="button-group">
+                  <button class="gnb-icon-button is-search lg-hidden" type="button" aria-label="검색창 열기 버튼">
+                    <i class="ic-search"></i>
+                  </button>
+
+                  <div class="gnb-auth sm-hidden">
+                    <a href="/" class="login-btn">로그인</a>
+                    <a href="/">회원가입</a>
+                  </div>
 
 
-                <button class="btn-primary btn-40 sm-hidden" type="button">
-                  글쓰기
-                  <i class="ic-chevron" aria-hidden></i>
-                </button>
+                  <button class="btn-primary btn-40 sm-hidden" type="button">
+                    글쓰기
+                    <i class="ic-chevron" aria-hidden></i>
+                  </button>
+                </div>
               </div>
+
             </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <nav class="lnb">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h1 class="visually-hidden">스토어 메뉴</h1>
-
-            <ul class="lnb-list">
-              <li class="lnb-item is-active">
-                <a href="/">스토어</a>
-              </li>
-              <li class="lnb-item ">
-                <a href="/">카테고리</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">신혼가구</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">베스트</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">오늘의딜</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">연휴특가</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">월동준비</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">리퍼마켓</a>
-              </li>
-              <li class="lnb-item">
-                <a href="/">
-                  기획전
-                  <i class="ic-new" lang="en" aria-label="New"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
 
-    </nav>
+      <nav class="lnb">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h1 class="visually-hidden">스토어 메뉴</h1>
+
+              <ul class="lnb-list">
+                <li class="lnb-item is-active">
+                  <a href="/">스토어</a>
+                </li>
+                <li class="lnb-item ">
+                  <a href="/">카테고리</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">신혼가구</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">베스트</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">오늘의딜</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">연휴특가</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">월동준비</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">리퍼마켓</a>
+                </li>
+                <li class="lnb-item">
+                  <a href="/">
+                    기획전
+                    <i class="ic-new" lang="en" aria-label="New"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </nav>
 
   </header>
 
@@ -386,7 +381,7 @@
             </div>
 
             <div class="product-info-delivery">
-              <span>일반택 배</span>
+              <span>일반택배</span>
               <strong class="tag-gray">
                 무료배송
               </strong>
@@ -503,13 +498,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-1">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-01.jpg" alt="">
+                          <img src="./assets/img/img-review-01.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -520,13 +515,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-2">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-02.jpg" alt="">
+                          <img src="./assets/img/img-review-02.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -537,13 +532,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-3">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-03.jpg" alt="">
+                          <img src="./assets/img/img-review-03.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -554,13 +549,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-4">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-04.jpg" alt="">
+                          <img src="./assets/img/img-review-04.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -571,13 +566,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-5">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-05.jpg" alt="">
+                          <img src="./assets/img/img-review-05.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -594,31 +589,31 @@
                   <ol class="thumbnail-list" role="tablist">
                     <li class="thumbnail-item" id="user-gallery-tab-1" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-01.jpg" alt="1번스타일샷">
+                        <img src="./assets/img/img-review-01.jpg" alt="1번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-2" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-02.jpg" alt="2번스타일샷">
+                        <img src="./assets/img/img-review-02.jpg" alt="2번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-3" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-03.jpg" alt="3번스타일샷">
+                        <img src="./assets/img/img-review-03.jpg" alt="3번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-4" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-04.jpg" alt="4번스타일샷">
+                        <img src="./assets/img/img-review-04.jpg" alt="4번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-5" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-05.jpg" alt="5번스타일샷">
+                        <img src="./assets/img/img-review-05.jpg" alt="5번스타일샷">
                       </button>
                     </li>
                   </ol>
@@ -685,13 +680,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-1">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-01.jpg" alt="">
+                          <img src="./assets/img/img-review-01.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -702,13 +697,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-2">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-02.jpg" alt="">
+                          <img src="./assets/img/img-review-02.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -719,13 +714,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-3">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-03.jpg" alt="">
+                          <img src="./assets/img/img-review-03.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -736,13 +731,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-4">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-04.jpg" alt="">
+                          <img src="./assets/img/img-review-04.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -753,13 +748,13 @@
                     <li class="slider-item" role="tabpanel" aria-labelledby="user-gallery-tab-5">
                       <div class="gallery-card">
                         <figure class='gallery-card-image'>
-                          <img src="/assets/img/img-review-05.jpg" alt="">
+                          <img src="./assets/img/img-review-05.jpg" alt="">
                           <figcaption class="visually-hidden">눈비구름 님의 스타일링샷</figcaption>
                         </figure>
 
                         <div class='gallery-card-detail'>
                           <a class="avatar-32" href="/">
-                            <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                            <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                           </a>
                           <a href="/" class='username'>눈비구름</a>
                           <span class='order'>1/461</span>
@@ -783,31 +778,31 @@
                   <ol class="thumbnail-list" role="tablist">
                     <li class="thumbnail-item" id="user-gallery-tab-1" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-01.jpg" alt="1번스타일샷">
+                        <img src="./assets/img/img-review-01.jpg" alt="1번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-2" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-02.jpg" alt="2번스타일샷">
+                        <img src="./assets/img/img-review-02.jpg" alt="2번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-3" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-03.jpg" alt="3번스타일샷">
+                        <img src="./assets/img/img-review-03.jpg" alt="3번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-4" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-04.jpg" alt="4번스타일샷">
+                        <img src="./assets/img/img-review-04.jpg" alt="4번스타일샷">
                       </button>
                     </li>
 
                     <li class="thumbnail-item" id="user-gallery-tab-5" role="tab">
                       <button>
-                        <img src="/assets/img/img-review-05.jpg" alt="5번스타일샷">
+                        <img src="./assets/img/img-review-05.jpg" alt="5번스타일샷">
                       </button>
                     </li>
                   </ol>
@@ -998,7 +993,7 @@
                       <h3 class="visually-hidden">김버그 님이 작성한 리뷰</h3>
 
                       <a class="avatar-24" href="/">
-                        <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                        <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                       </a>
 
                       <div class="info">
@@ -1093,7 +1088,7 @@
                       <h3 class="visually-hidden">김버그 님이 작성한 리뷰</h3>
 
                       <a class="avatar-24" href="/">
-                        <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                        <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                       </a>
 
                       <div class="info">
@@ -1145,7 +1140,7 @@
                       <h3 class="visually-hidden">김버그 님이 작성한 리뷰</h3>
 
                       <a class="avatar-24" href="/">
-                        <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                        <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                       </a>
 
                       <div class="info">
@@ -1194,7 +1189,7 @@
                       <h3 class="visually-hidden">김버그 님이 작성한 리뷰</h3>
 
                       <a class="avatar-24" href="/">
-                        <img src="/assets/img/201671837_1280.jpg" alt="사달라아저씨">
+                        <img src="./assets/img/201671837_1280.jpg" alt="사달라아저씨">
                       </a>
 
                       <div class="info">
@@ -1804,7 +1799,7 @@
     <header class="sidebar-header">
       <h1 class="logo">
         <a href="/">
-          <img src="/assets/img/Logo.svg" alt="내일의 집">
+          <img src="./assets/img/Logo.svg" alt="내일의 집">
         </a>
       </h1>
 
@@ -1812,7 +1807,7 @@
       <div class="sidebar-user">
         <a href="/">
           <div class="avatar-24">
-            <img src="/assets/img/오타니프로필.jpg" alt="오타니">
+            <img src="./assets/img/오타니프로필.jpg" alt="오타니">
           </div>
           <strong class='username'>오타니</strong>
         </a>
@@ -2147,10 +2142,16 @@
   </aside>
   <div class="overlay" aria-hidden> </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script src="/js/Carousels.js"></script>
+  <script src="/js/login.js"></script>
   <script src="/js/sidebar.js"></script>
   <script src="/js/sidebar-drawer.js"></script>
   <script src="/js/section-header.js  "></script>
+  <script src="/js/checkoutList.js"></script>
   <script src="/js/search-modal.js  "></script>
   <script src="/js/order-cta.js  "></script>
   <script src="/js/my-menu.js  "></script>
