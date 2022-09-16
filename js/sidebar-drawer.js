@@ -1,8 +1,12 @@
-const drawerMenu = document.querySelectorAll('.drawer-menu');
+const drawerMenuButtonList = document.querySelectorAll(
+  '.sidebar-nav .drawer-menu-button'
+)
 
-
-for (let i = 0; i <= drawerMenu.length; i++) {
-  drawerMenu[i].addEventListener('click', () => {
-    drawerMenu[i].classList.toggle('is-open');
-  })
+function toggleDrawerMenu() {
+  const drawerMenu = this.parentNode
+  drawerMenu.classList.toggle('is-open')
 }
+
+drawerMenuButtonList.forEach(function (button) {
+  button.addEventListener('click', toggleDrawerMenu)
+})

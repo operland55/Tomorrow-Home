@@ -48,7 +48,5 @@ deleteButtonList.forEach(i => {
   i.addEventListener('click', deleteSearchHistoryItem)
 })
 
-deleteButton.addEventListener('click', deleteSearchHistoryItem)
-
 
 deleteAllButton.addEventListener('click', deleteAllSearchHistories)

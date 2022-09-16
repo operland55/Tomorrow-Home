@@ -1,6 +1,7 @@
 const myMenu = document.querySelector('.my-menu')
 const myMenuButton = document.querySelector('.my-menu-button')
 
+console.log(myMenuButton)
 function toggleMenu() {
   if (myMenu.classList.contains('is-active')) {
     window.addEventListener('click', closeMyMenuOnClickingOutside)
