@@ -1988,6 +1988,7 @@ max-container-size -------------1140px
   @media screen and (min-width: 1200px) {
     .gnb-search {
       position: relative;
+      z-index: 60;
       width: 264px;
       margin-right: 24px; }
       .gnb-search .input-group {

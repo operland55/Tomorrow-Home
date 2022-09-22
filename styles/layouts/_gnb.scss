@@ -91,9 +91,9 @@
   @include responsive(D) {
     &-search {
       position: relative;
+      z-index: $gnb-level;
       width: 264px;
       margin-right: 24px;
-
       .input-group {
         width: 100%;
       }
